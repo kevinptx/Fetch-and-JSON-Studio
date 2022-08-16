@@ -18,6 +18,8 @@ window.addEventListener("load", function () {
             </div>`
                 if (astronaut.active === true) {
                     document.getElementById(astronaut.id).style.color = "green"
+                    document.getElementById(astronaut.id).style.fontWeight = "bold"
+
                 }
             }
             document.getElementById("count").innerHTML += `Total number of astronauts: ${Object.keys(json).length}`
